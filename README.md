@@ -4,10 +4,16 @@
         + download chương trình từ link github: git clone <link>
         + tất cả các câu lệnh, cài đặt để có thể chạy được chương trình:
           _ IDE sử dụng : Visual Studio 2022
-          _ các file cần cài đặt: SDL2, SDL_ttf(SDL_ttf 2.0.14), SDL_image, SDL_mixer (SDL_mixer2.0.2), sau đó add path các đường link đến các file này trong Visual Studio 2022   (xem cách cài đặt chi tiết tại youtube: https://youtu.be/7nkKVyt0DsY )
-            ![image](https://user-images.githubusercontent.com/100345221/170524685-f0bdcce5-fd26-4a5c-a336-71e636556550.png)
-            ở mục này trong project properties ta cần add path tới mục include trong các thư viện SDL, SDL_image, SDL_mixer, SDL_tff
+          _ các file cần cài đặt: SDL2, SDL_ttf(SDL_ttf 2.0.14), SDL_image, SDL_mixer (SDL_mixer2.0.2),
+          sau đó add path các đường link đến các file này trong Visual Studio 2022 (xem cách cài đặt chi tiết tại youtube: https://youtu.be/7nkKVyt0DsY )
+         
+![279399267_1800361700171175_8208493849920376883_n](https://user-images.githubusercontent.com/100345221/170530825-80ea6150-3890-4fcc-9990-9afa3ea787aa.png)
+            
+            ở mục này trong project properties ta cần add path tới mục include trong các thư viện SDL, SDL_image, SDL_mixer, SDL_ttf
+![Screenshot 2022-05-27 001144](https://user-images.githubusercontent.com/100345221/170539674-31914fe4-bf6c-4d19-9a44-8f6d726a1539.png)
 
+            tiếp theo ta copy tên các file lib của các file SDL cần thiết vào Linker/input
+            
           _ do dùng IDE, để chạy chương trình, ta Build Solution or Start Debugging.
           
        2.Mô tả chung về trò chơi, các ý tưởng chính
