@@ -5,6 +5,9 @@
         + tất cả các câu lệnh, cài đặt để có thể chạy được chương trình:
           _ IDE sử dụng : Visual Studio 2022
           _ các file cần cài đặt: SDL2, SDL_ttf(SDL_ttf 2.0.14), SDL_image, SDL_mixer (SDL_mixer2.0.2), sau đó add path các đường link đến các file này trong Visual Studio 2022   (xem cách cài đặt chi tiết tại youtube: https://youtu.be/7nkKVyt0DsY )
+            ![image](https://user-images.githubusercontent.com/100345221/170524685-f0bdcce5-fd26-4a5c-a336-71e636556550.png)
+            ở mục này trong project properties ta cần add path tới mục include trong các thư viện SDL, SDL_image, SDL_mixer, SDL_tff
+
           _ do dùng IDE, để chạy chương trình, ta Build Solution or Start Debugging.
           
        2.Mô tả chung về trò chơi, các ý tưởng chính
