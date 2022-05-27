@@ -1,6 +1,6 @@
 #include "TextFunction.h"
 
-
+// set up text in game
 TextFunction::TextFunction(void)
 {
     text_color_.r = 255;

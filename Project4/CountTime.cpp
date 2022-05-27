@@ -2,6 +2,8 @@
 #include "CountTime.h"
 #include "MainFunction.h"
 
+
+// problems about time in game
 CountTime::CountTime()
 {
     start_tick_ = 0;

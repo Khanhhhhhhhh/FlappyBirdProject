@@ -1,10 +1,10 @@
 
 #include "GetRectFunction.h"
 
-INT g_pos[] = { 1250, 1500, 1750, 2000, 2250, 2500 };
+int g_pos[] = { 1250, 1500, 1750, 2000, 2250, 2500 };
 
 
-GetRectFunction :: GetRectFunction()
+GetRectFunction::GetRectFunction()
 {
     is_back_ = false;
 }
@@ -58,6 +58,8 @@ DoubleBlock::~DoubleBlock()
 
 }
 
+
+ // chuong ngai vat: block (topblock & botblock)
 bool DoubleBlock::InitBlock(SDL_Renderer* screen, const int& xp)
 {
     int number = SDLCommonFunc::MyRandom(1, 10);

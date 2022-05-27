@@ -142,12 +142,13 @@ again_label:
     {
         fps.start();
 
-        // move floor but edit image too large -> don't feel :v
+        // move floor but edit image too large -> don't feel
         double x = 0;
         g_ground.SetRect(x, GROUND_MAP);
         x -= 0.9;
         if (x < SCREEN_WIDTH) x = 0;
 
+        // main loop
         while (SDL_PollEvent(&g_event) != 0)
         {
             if (g_event.type == SDL_QUIT)
@@ -209,7 +210,7 @@ again_label:
         {
             Sleep(500);
             int ret_menu = SDLCommonFunc::ShowMenu(g_screen, g_font_MENU,
-                "Player Again", "Exit",
+                "Play Again", "Exit",
                 "img//Gameover.png");
             if (ret_menu == 1)
             {

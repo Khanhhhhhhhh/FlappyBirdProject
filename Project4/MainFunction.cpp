@@ -1,6 +1,8 @@
 
 #include "MainFunction.h"
 
+
+// menu
 int SDLCommonFunc::ShowMenu(SDL_Renderer* g_screen, TTF_Font* font,
     const std::string& menu1,
     const std::string& menu2,
@@ -140,6 +142,7 @@ int SDLCommonFunc::MyRandom(int min, int max)
     return rand() % (max - min + 1) + min;
 }
 
+// collision handling
 bool SDLCommonFunc::CheckCollision(const SDL_Rect& object1, const SDL_Rect& object2)
 {
     int left_a = object1.x;
