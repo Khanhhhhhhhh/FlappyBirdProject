@@ -1,7 +1,7 @@
 
 #include "GetRectFunction.h"
 
-INT g_pos[] = { 1250, 1500, 1750, 2000, 2250, 2500 };
+int g_pos[] = { 1250, 1500, 1750, 2000, 2250, 2500 };
 
 
 GetRectFunction :: GetRectFunction()
